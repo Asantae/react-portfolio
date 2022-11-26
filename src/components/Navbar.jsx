@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo' style={{ width: '100px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '75px' }} />
       </div>
 
       {/* menu */}
@@ -118,7 +118,6 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              download
               href='../assets/resume/resume.pdf'
               target="_blank"
               rel="noopener noreferrer"
