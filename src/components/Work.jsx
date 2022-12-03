@@ -37,6 +37,9 @@ const Work = () => {
       <span>
         {item.desc}
       </span>
+      <span>
+        Tech used: {item.tech}
+      </span>
       <div className="pt-8 text-center ">
         {/* eslint-disable-next-line */}
         <a href={item.github} target="_blank" rel="noopener noreferrer">
